@@ -1,0 +1,52 @@
+#heads h1 ul li{
+    display: inline;
+    margin-right: 145px;
+}
+#heads h1 ul li.may{
+    margin-right: 150px;
+}
+#heads h1 ul li img{
+    margin-right: 10px;
+}
+#heads h1 ul li.not{
+    margin-right: 0;
+}
+ #heads h1 ul{
+    list-style-image: url('3.png');
+    font-size: 18px;
+
+ }
+.border{
+    display: inline-block;
+    width: 229px;
+    height: 5px;
+    background: black;
+    margin-right: 50px;
+ }
+.no{
+    display:inline-block;
+    width: 229px;
+    height: 5px;
+    background: black;
+    margin-right: 0;
+    margin-left: 5px;
+ }
+
+
+
+
+
+
+   <h1>
+                <ul>
+                    <li claas="may"><img src="3.png"/>ABOUT US</li>
+                    <li claas="yes"><img src="3.png"/>OUR BENEFITS</li>
+                    <li class="not"><img src="3.png"/>TESTIMONIALS</li>
+                </ul>
+            </h1>
+        </div>
+        <div>
+            <div class="border"></div>
+            <div class="border"></div>
+            <div class="no"></div>
+        </div>
